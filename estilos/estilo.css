@@ -1,0 +1,34 @@
+
+.navbar{
+    box-shadow: 2px 2px 5px #004;
+    opacity: .9;
+
+}
+.navbar .nav-item .nav-link{
+    color: #004;
+
+}
+
+.main-header{
+    position: relative;
+    background: url(../img/reparacion.jpg);
+    background-size: cover;
+    min-height: 600px;
+    
+}
+.background-overlay{
+    position: absolute;
+    background: rgba(30, 55, 153,.6);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.form-control, .btn{
+    border-radius: 10%;
+}
+
+.team{
+    background: rgba(30, 55, 153,1);
+}
